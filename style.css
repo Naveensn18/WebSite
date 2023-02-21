@@ -87,16 +87,18 @@ header{
     padding: 20px;
     font-size: 30px;
   }
-
-  .back{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(m3.png);
-  }
+.place{
+    background-color: cyan;
+}
 
   .place h1{
 	color: #fff;
 	font-size: 85px;
     font-family: cursive;
     font-style: italic;
+}
+.mountains{
+    background-color: blueviolet;
 }
 .mountains h1{
 	color: #fff;
