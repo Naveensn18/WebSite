@@ -56,14 +56,14 @@ header{
     font-style: italic;
 }
 
-.button{
+.opn{
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
 
-.btn{
+.op{
 	border: 1px solid #fff;
 	padding: 5px 20px;
 	color: #fff;
@@ -72,7 +72,7 @@ header{
 	text-decoration: none;
 }
 
-.btn:hover{
+.op:hover{
 	background-color: #fff;
 	color: #000;
 }
@@ -91,3 +91,28 @@ header{
   .back{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(m3.png);
   }
+
+  .place h1{
+	color: #fff;
+	font-size: 85px;
+    font-family: cursive;
+    font-style: italic;
+}
+.mountains h1{
+	color: #fff;
+	font-size: 85px;
+    font-family: cursive;
+    font-style: italic;
+}
+.contact h1{
+	color: #fff;
+	font-size: 85px;
+    font-family: cursive;
+    font-style: italic;
+}
+.contact{
+    background-color: #000;
+}
+.contact label{
+    color: #fff;
+}
