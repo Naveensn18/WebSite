@@ -93,7 +93,6 @@ header{
 }
 
   .place h1{
-	color: #fff;
 	font-size: 85px;
     font-family: cursive;
     font-style: italic;
@@ -120,5 +119,23 @@ header{
     color: #fff;
 }
 .card-body{
+    background-color: yellowgreen;
+}
+
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+.falls h1{
+	font-size: 85px;
+    font-family: cursive;
+    font-style: italic;
+}
+.outer{
     background-color: yellowgreen;
 }
