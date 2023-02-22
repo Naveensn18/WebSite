@@ -11,6 +11,7 @@ header{
     min-height: 100px;
 }
 .topline{
+   
     float: right;
     list-style-type: none;
     margin-top: 30px;
@@ -82,13 +83,13 @@ header{
   }
   
   .flex-container > div {
-    background-color: #f1f1f1;
+    background-color:whitesmoke;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
   }
 .place{
-    background-color: cyan;
+    background-color:lightblue;
 }
 
   .place h1{
@@ -98,7 +99,7 @@ header{
     font-style: italic;
 }
 .mountains{
-    background-color: blueviolet;
+    background-color:antiquewhite;
 }
 .mountains h1{
 	color: #fff;
@@ -117,4 +118,7 @@ header{
 }
 .contact label{
     color: #fff;
+}
+.card-body{
+    background-color: yellowgreen;
 }
