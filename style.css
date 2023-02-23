@@ -11,24 +11,26 @@ header{
     min-height: 100px;
 }
 .topline{
-    position: fixed;
-   
+    
+    float: right;
     list-style-type: none;
     margin-top: 30px;
     min-height: 400px;
     margin-right: 60px;
     font-size: 17px;
 }
+
 .topline li{
+    background-color: #fff;
     display: inline-block;
 }
 
 .topline li a{
     text-decoration: none;
-    color: #fff;
+    color: lightslategray;
     padding: 5px 20px;
     border: 1px solid transparent;
-    transition: 0.5 ease;
+   
 }
  .topline li a:hover{
     background-color: #fff;
@@ -107,14 +109,11 @@ header{
     font-style: italic;
 }
 .contact h1{
-	color: #fff;
 	font-size: 85px;
     font-family: cursive;
     font-style: italic;
 }
-.contact{
-    background-color: #000;
-}
+
 .contact label{
     color: #fff;
 }
@@ -138,4 +137,10 @@ header{
 }
 .outer ul{
     background-color: yellowgreen;
+}
+
+.aboutus h1{
+	font-size: 85px;
+    font-family: cursive;
+    font-style: italic;
 }
