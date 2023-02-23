@@ -10,27 +10,34 @@ header{
     background-position: center;
     min-height: 100px;
 }
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
 .topline{
     
     float: right;
-    list-style-type: none;
-    margin-top: 30px;
-    min-height: 400px;
-    margin-right: 60px;
-    font-size: 17px;
+    border: 1px solid #fff;
+	padding: 5px 20px;
+	color: #fff;
+	transition: 0.6s ease;
+	font-size: 18px;
+	text-decoration: none;
 }
 
 .topline li{
-    background-color: #fff;
+   
     display: inline-block;
 }
 
 .topline li a{
     text-decoration: none;
-    color: lightslategray;
+    color: white;
     padding: 5px 20px;
     border: 1px solid transparent;
-   
+    transition: 0.5s ease;
+
 }
  .topline li a:hover{
     background-color: #fff;
@@ -45,13 +52,14 @@ header{
     max-width: 1200px;
     margin: auto;
 }
-.title{
+
+.title h1{
+
 	position: absolute;
 	top: 40%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
-
 .title h1{
 	color: #fff;
 	font-size: 85px;
@@ -108,15 +116,6 @@ header{
     font-family: cursive;
     font-style: italic;
 }
-.contact h1{
-	font-size: 85px;
-    font-family: cursive;
-    font-style: italic;
-}
-
-.contact label{
-    color: #fff;
-}
 .card-body{
     background-color: yellowgreen;
 }
@@ -139,8 +138,19 @@ header{
     background-color: yellowgreen;
 }
 
-.aboutus h1{
-	font-size: 85px;
+.contactus h1{
+    color: lightslategray;
+    font-size: 50px;
     font-family: cursive;
     font-style: italic;
+}
+.contactus label{
+    color: white;
+}
+.contactus{
+    background-color: #000;
+}
+.contactus img{
+    width: 50px;
+    height: 50px;
 }
